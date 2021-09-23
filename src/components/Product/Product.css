@@ -1,0 +1,17 @@
+.products{
+    display: flex;
+    margin-left: 60px;
+    border-bottom: 1px solid lightgrey;
+    margin-right: 3px;
+
+}
+
+.product-header{
+    color: blue;
+    font-weight: 400;
+}
+
+.product-info{
+    margin-left: 17px;
+    margin-right: 3px;
+}
