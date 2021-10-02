@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import logo from '../../images/logo.png';
 import "./Header.css"
 
@@ -8,9 +9,9 @@ const Header = () => {
         <div className="header">
             <img className="logo" src={logo} alt="" />
             <nav>
-                <a href="/shop">Shop</a>
-                <a href="/order">Order</a>
-                <a href="/manngeInventory">Manage Inventory</a>
+                <NavLink to="/shop">Shop</NavLink>
+                <NavLink to="/orderReview">Order</NavLink>
+                <NavLink to="/manageInventory">Manage Inventory</NavLink>
             </nav>
         </div>
     );
